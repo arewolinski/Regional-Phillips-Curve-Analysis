@@ -53,7 +53,7 @@ def output_spatial_inflation(date):
     This function creates a spatial plot of the inflation rate for a given date. It uses the RegionalPhillipsCurve module to get 
     the inflation rate for each region in the US and puts it on a heatmap using geopandas and matplotlib.
 
-    Inputs: date - a string in the format 'YYYY-MM-DD'
+    Inputs: date - a string in the format 'YYYY-MM-01'
 
     Outputs: A matplotlib plot of the unemployment rate for each region in the US.
     """
