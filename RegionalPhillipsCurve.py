@@ -8,7 +8,7 @@ def get_cpi():
     Using a getter function for the CPI data which is good coding practice to not have global variables.
     """
 
-    return pd.read_csv('/Users/alexrewolinski/Desktop/Phillips Curve Project/Regional Phillips Curve/Code/Core CPI by Region.csv')
+    return pd.read_csv('data/Core CPI by Region.csv')
 
 def get_unem():
     """
@@ -16,7 +16,7 @@ def get_unem():
 
     """
 
-    return pd.read_csv('/Users/alexrewolinski/Desktop/Phillips Curve Project/Regional Phillips Curve/Code/Unemployment Rate by Region.csv')
+    return pd.read_csv('data/Unemployment Rate by Region.csv')
     
 
 
